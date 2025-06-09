@@ -1,0 +1,68 @@
+{
+  "parser-directories": [
+    "/Users/astral/github",
+    "/Users/astral/src",
+    "/Users/astral/source",
+    "/Users/astral/projects",
+    "/Users/astral/dev",
+    "/Users/astral/git"
+  ],
+  "theme": {
+    "constant": 94,
+    "variable": 252,
+    "variable.builtin": {
+      "color": 252,
+      "bold": true
+    },
+    "tag": 18,
+    "number": {
+      "color": 94,
+      "bold": true
+    },
+    "function.builtin": {
+      "bold": true,
+      "color": 26
+    },
+    "constant.builtin": {
+      "bold": true,
+      "color": 94
+    },
+    "type": 23,
+    "variable.parameter": {
+      "underline": true,
+      "color": 252
+    },
+    "function": 26,
+    "attribute": {
+      "color": 124,
+      "italic": true
+    },
+    "module": 136,
+    "operator": {
+      "bold": true,
+      "color": 239
+    },
+    "property.builtin": {
+      "bold": true,
+      "color": 124
+    },
+    "constructor": 136,
+    "punctuation.bracket": 239,
+    "punctuation.special": 239,
+    "property": 124,
+    "embedded": null,
+    "punctuation.delimiter": 239,
+    "punctuation": 239,
+    "string": 28,
+    "comment": {
+      "color": 245,
+      "italic": true
+    },
+    "string.special": 30,
+    "type.builtin": {
+      "color": 23,
+      "bold": true
+    },
+    "keyword": 56
+  }
+}

@@ -1,0 +1,28 @@
+# .config/zsh/.zsh_plugins.txt
+
+ajeetdsouza/zoxide
+sindresorhus/pure
+
+# you can even use Oh My Zsh plugins
+getantidote/use-omz
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/extract
+
+# add fish-like features
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search
+olets/zsh-abbr
+
+jeffreytse/zsh-vi-mode
+
+# completions
+mattmc3/ez-compinit
+zsh-users/zsh-completions
+
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/docker
+Aloxaf/fzf-tab
+
+zsh-users/zsh-syntax-highlighting
