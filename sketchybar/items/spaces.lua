@@ -67,12 +67,17 @@ for i = 1, 20, 1 do
   end)
 
   space:subscribe("mouse.clicked", function(env)
-    if env.BUTTON == "other" then
-      space_popup:set({ background = { image = "space." .. env.SID } })
-      space:set({ popup = { drawing = "toggle" } })
+    if env.MODIFIER == "shift" then
+      sbar.exec("yabai -m window --space " .. env.SID)
+      sbar.exec("yabai -m space --focus " .. env.SID)
     else
-      local op = (env.BUTTON == "right") and "--destroy" or "--focus"
-      sbar.exec("yabai -m space " .. op .. " " .. env.SID)
+      if env.BUTTON == "other" then
+        space_popup:set({ background = { image = "space." .. env.SID } })
+        space:set({ popup = { drawing = "toggle" } })
+      else
+        local op = (env.BUTTON == "right") and "--destroy" or "--focus"
+        sbar.exec("yabai -m space " .. op .. " " .. env.SID)
+      end
     end
   end)
 
