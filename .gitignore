@@ -20,6 +20,8 @@ raycast/
 spotify-player/
 weechat/
 zsh-abbr/
+pulse/
 hyfetch.json
+zsh/.zsh_history
 
 **/.DS_Store
