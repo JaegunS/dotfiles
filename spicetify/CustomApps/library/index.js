@@ -142,7 +142,7 @@ var library = (() => {
     }));
   });
   var NavbarContent = (props) => {
-    const resizeHost = document.querySelector(".Root__main-view .os-resize-observer-host") ?? document.querySelector(".Root__main-view .os-size-observer");
+    const resizeHost = document.querySelector(".Root__main-view .os-size-observer, .Root__main-view, .main-view-container__scroll-node" ) ?? document.querySelector(".Root__main-view .os-size-observer");
     const [windowSize, setWindowSize] = (0, import_react2.useState)(resizeHost.clientWidth);
     const resizeHandler = () => setWindowSize(resizeHost.clientWidth);
     (0, import_react2.useEffect)(() => {
